@@ -1,0 +1,196 @@
+body{
+    background-color: #EEEFEE;
+    font-size: 1.2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1qrem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.navContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00092c;
+    height: 5rem;
+    width: 100%;
+}
+
+.navItem{
+    height: 30px;
+    color: white;
+    margin-right: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navItem:hover{
+    color: #C70039;
+    border: 1px solid #FF5F00;
+}
+
+h1{
+    font-size: 2.2rem; 
+    padding-top: 20px; 
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.navContainer > a{
+    border: 1px white solid;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 1.4rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.8rem;
+    padding: 30px;
+    text-align: center;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.feature-1{
+    text-align: center;
+    padding-top: 20px;
+    width: 350px;
+    height: 200px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+    background-color: #EFFEEE;
+    border: 1px solid black;    
+}
+
+.heroImage{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #FF5F00;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sign-up-form-form{
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 20px 20px 20px 20px 20px 20px 30px;
+    gap: 45px;
+    font-size: 1.2rem;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+.sign-up-form-form > *{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+button{
+    display: inline-block;
+    width: 6.8rem;
+    height: 2.5rem;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+input{
+    padding:10px 0 ;
+}
+
+.signUp{
+    font-size: 2.5rem;
+}
+
+.successMsg{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: springgreen;
+    padding-bottom: 1.5rem;
+    border: solid 1px rgb(51, 51, 51);
+    background-color: rgb(131, 131, 131);
+    width: auto;
+    height: 30px;
+}
+
+.errorMsg{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: rgb(255, 0, 21);
+    padding-bottom: 1.5rem;
+    border: solid 1px black;
+    background-color: #EEEFEE;
+    width: auto;
+    height: 30px;
+}
+
+.login-form-form{
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 30px 30px 30px 30px;
+    gap: 25px;
+    font-size: 1.2rem;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+.logIn{
+    font-size: 2.4rem;
+}
+
+.login-form-form > *{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.welcomeBanner{
+    background-color: #5f7eac;
+    width: auto;
+    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    border-radius: 3px;
+    color: #EEFEEE;
+}
